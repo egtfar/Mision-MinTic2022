@@ -1,0 +1,62 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+}
+
+.Sidebar {
+  height: 100%;
+  width: 12.5rem;
+  background-color: #2f4050;
+}
+
+.SidebarList {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+
+.row-item {
+  width: 100%;
+  list-style-type: none;
+}
+
+.row-item:hover {
+  cursor: pointer;
+  background-color: #293846;
+}
+
+.row-active {
+  background-color: #293846;
+}
+
+.icon {
+  flex: 30%;
+  place-items: center;
+}
+
+.title {
+  flex: 70%;
+  text-decoration: none;
+  color: white;
+}
+a:visited {
+  text-decoration: none;
+}
+a:link {
+  text-decoration: none;
+}
+
+.main {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.contenido {
+  height: 60vh;
+}
+
+.loading {
+  height: 60vh;
+}
